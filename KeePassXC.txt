@@ -1,0 +1,11 @@
+sudo apt install keepassxc -y
+
+Database name: CyberSecurityLab
+
+Description: MCA Cyber Security Practical Experiment 2
+
+Title	Cyber Security Lab
+Username	MCA
+Password	Generated password
+URL	https://example.com
+Notes	Experiment 2 – Secure Password

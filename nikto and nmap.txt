@@ -1,0 +1,14 @@
+Identify the multiple vulnerabilities webserver using nikto tool  
+Step 1: Nikto Install Pannu 
+Kali Linux terminal open panni: 
+sudo apt install nikto 
+Step 2: Web Server Scan 
+nikto -h periyaruniversity.ac.in 
+nikto -h youngstorage.in 
+
+
+Identify the open ports in the network using nmap tools 
+Step 1: nmapInstall Pannu 
+sudo apt install nmap -y 
+Step 2: Nmap Scan 
+sudo nmap periyaruniversity.ac.in

@@ -1,0 +1,30 @@
+Open Vulnerabilities of system using Metasploit: 
+
+sudo apt update
+sudo apt install metasploit-framework -y
+
+Step 1: Metasploit Open Pannu 
+Kali Linux Terminal open  
+msfconsole 
+Step 2: SMB Vulnerability Scan 
+use auxiliary/scanner/smb/smb_ms17_010 
+set RHOSTS 192.168.43.77 
+run 
+Step 3: HTTP Scan 
+use auxiliary/scanner/http/http_version 
+set RHOSTS 192.168.43.77 
+run 
+Step 4: FTP Scan 
+use auxiliary/scanner/ftp/ftp_version 
+set RHOSTS 192.168.43.77 
+run 
+Step 5: SSH Scan 
+use auxiliary/scanner/ssh/ssh_version 
+set RHOSTS 192.168.43.77 
+run 
+Step 6: MySQL Scan 
+use auxiliary/scanner/mysql/mysql_version 
+set RHOSTS 192.168.43.77 
+run 
+Step 7: Exit 
+exit

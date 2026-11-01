@@ -1,0 +1,7 @@
+List all the networks and display all information 
+Step 1: Network Manager Install Pannu 
+sudo apt install network-manager 
+Step 2: Network Information Display Pannu 
+nmcli 
+Step 3: Nearby Wi-Fi Networks List Pannu 
+nmcli device wifi list

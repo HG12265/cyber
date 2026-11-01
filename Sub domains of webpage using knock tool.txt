@@ -1,0 +1,10 @@
+Sub domains of webpage using knock tool: 
+Step 1: 
+sudo apt update 
+sudo apt install git python3 -y 
+Step 2: 
+git clone https://github.com/guelfoweb/knock.git 
+Step 3: 
+cd knock 
+Step 4:. 
+python3 knockpy.py -d periyaruniversity.ac.in --recon
